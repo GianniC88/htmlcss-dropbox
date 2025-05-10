@@ -4,9 +4,13 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-font-family: "Roboto", sans-serif;
+
 .bolder {
   font-weight: bolder;
+}
+
+.border-card {
+  border: 1px solid lightgray;
 }
 
 .cent-flx {
@@ -14,8 +18,9 @@ font-family: "Roboto", sans-serif;
 
   display: flex;
 }
-.sing{
-  margin-bottom: 15px;
+
+.lg-gray {
+  color: lightgray;
 }
 
 h1 {
@@ -119,9 +124,11 @@ h1 {
   padding: 1rem;
 }
 
-.col {
+.col-3 {
+  width: calc(100 / 12 * 3);
+  justify-content: center;
+  position: relative;
   padding: 1rem;
-  width: 33%;
 }
 
 .col-2 {
@@ -129,16 +136,6 @@ h1 {
   margin: 0;
 
   width: 27%;
-}
-.col-1 {
-  width: calc(100 / 1);
-  font-size: 16px;
-}
-
-.col-3 {
-  width: 100%;
-  justify-content: center;
-  position: relative;
 }
 
 .img-jumb {
@@ -224,30 +221,78 @@ h2 {
 }
 .card-piano-left {
   width: 33%;
+  position: relative;
+  border: 1px solid lightgray;
 }
 .card-piano-center {
   margin-inline: 10px;
   border: 1px solid lightgray;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 33%;
+  position: relative;
+}
+.card-piano-right {
+  border: 1px solid lightgray;
+
+  width: 33%;
+  position: relative;
 }
 
 .butt-free {
   background-color: blue;
-  width: 28%;
   color: white;
-  background-color: blue;
-  width: 80%;
-  margin-left: 10%;
-}
+  width: 100%;
 
-.salient-point {
+  height: 25px;
+  margin-bottom: 20px;
+}
+.shop-now {
+  margin-bottom: 40px;
   margin-left: 15px;
- 
+}
+.salient-point {
+  padding: 15px;
+  margin-top: 25px;
 }
 
 .ceck-free-a {
-  p
 }
 
 .ceck-free-a {
-  
+}
+/* margin */
+
+.mrg-bt-20 {
+  margin-bottom: 20px;
+}
+
+.mrg-tp-35 {
+  margin-top: 35px;
+}
+
+.mrg-bt-15 {
+  margin-bottom: 15px;
+}
+
+.mrg-bt-40 {
+  margin-bottom: 40px;
+}
+
+.mrg-bt-30 {
+  margin-bottom: 30px;
+}
+
+.mrg-lft-20 {
+  margin-left: 20px;
+}
+
+.sez-share {
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.share-icon {
+  position: absolute;
+  margin-left: -15px;
 }
