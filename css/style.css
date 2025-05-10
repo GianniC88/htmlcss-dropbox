@@ -2,6 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+font-family: "Roboto", sans-serif;
+.bolder {
+  font-weight: bolder;
+}
+
+.cent-flx {
+  justify-content: center;
+
+  display: flex;
+}
+.sing{
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -123,7 +137,8 @@ h1 {
 
 .col-3 {
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  position: relative;
 }
 
 .img-jumb {
@@ -206,4 +221,33 @@ h2 {
   vertical-align: middle;
   text-align: center;
   height: 15px;
+}
+.card-piano-left {
+  width: 33%;
+}
+.card-piano-center {
+  margin-inline: 10px;
+  border: 1px solid lightgray;
+}
+
+.butt-free {
+  background-color: blue;
+  width: 28%;
+  color: white;
+  background-color: blue;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.salient-point {
+  margin-left: 15px;
+ 
+}
+
+.ceck-free-a {
+  p
+}
+
+.ceck-free-a {
+  
 }
