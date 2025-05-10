@@ -121,6 +121,11 @@ h1 {
   font-size: 16px;
 }
 
+.col-3 {
+  width: 100%;
+  justify-content: space-around;
+}
+
 .img-jumb {
   position: absolute;
   margin-top: -128px;
@@ -152,4 +157,53 @@ h1 {
   position: absolute;
   font-size: 20px;
   margin-top: 375px;
+}
+
+/* main */
+h2 {
+  margin-top: 120px;
+  font-size: 36px;
+}
+.content-main {
+  flex-direction: column;
+}
+
+.row-main {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.fatturazione {
+  margin-top: 35px;
+}
+
+.mensile {
+  margin-right: 50px;
+}
+
+.ring-blu {
+  border: 3px solid blue;
+  border-radius: 100%;
+  width: 15px;
+  display: inline-block;
+  font-size: 10px;
+  line-height: 15px;
+  vertical-align: middle;
+  text-align: center;
+  height: 15px;
+}
+
+.ring-light {
+  border: 2px solid lightgrey;
+  border-radius: 100%;
+  width: 15px;
+  display: inline-block;
+  font-size: 10px;
+  line-height: 15px;
+  vertical-align: middle;
+  text-align: center;
+  height: 15px;
 }
