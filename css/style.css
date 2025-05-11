@@ -75,6 +75,9 @@ h1 {
 
 .bg-nav-bar {
   background-color: #ffffff;
+  z-index: 3;
+  top: 0;
+  position: sticky;
 }
 .nav-bar {
   justify-content: space-between;
