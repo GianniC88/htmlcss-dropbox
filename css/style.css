@@ -52,8 +52,8 @@ h1 {
   }
 }
 .container {
-  max-width: 600px;
-  width: 80%;
+  max-width: 800px;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -143,7 +143,7 @@ h1 {
 
 .container-sml {
   max-width: 900px;
-  width: 65%;
+
   margin: 0 auto;
 }
 
@@ -212,6 +212,11 @@ h2 {
   margin: 0 auto;
 }
 
+.team-wid {
+  justify-content: center;
+  width: 100%;
+}
+
 .row-main {
   display: flex;
   flex-wrap: wrap;
@@ -275,10 +280,16 @@ h2 {
   position: relative;
 }
 
+.card-enterprise {
+}
+.team {
+  display: flex;
+}
 .butt-free {
   background-color: #1f84ff;
   color: white;
   width: 100%;
+  margin-top: 15px;
 
   height: 25px;
   margin-bottom: 20px;
@@ -297,7 +308,21 @@ h2 {
 
 .ceck-free-a {
 }
+
+/* size */
+.size-10 {
+  font-size: 10px;
+}
+
 /* margin */
+
+.pd-20 {
+  padding: 20px;
+}
+
+.mrg-rgt-10 {
+  margin-right: 10px;
+}
 
 .mrg-bt-20 {
   margin-bottom: 20px;
@@ -326,14 +351,20 @@ h2 {
   margin-top: 10px;
 }
 
-.mrg-lft-20 {
+.mrg-lft-25 {
   margin-left: 25px;
+}
+
+.mrg-lft-20 {
+  margin-left: 20px;
 }
 
 .mrg-lft-020 {
   margin-left: -15;
 }
-
+.mrg-lft-10 {
+  margin-left: 10px;
+}
 .mrg-top-30 {
   margin-top: 30px;
 }
@@ -356,4 +387,37 @@ h2 {
 .ceck-color {
   color: #1f84ff;
   margin-left: -14px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.enterprise {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.enterp-button {
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.p-enterprice {
+  margin-left: 10px;
+  width: 60%;
+  font-size: 11px;
+  margin-top: 20px;
+}
+
+.box-enterprice {
+  padding: 1rem;
 }
