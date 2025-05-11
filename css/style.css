@@ -8,9 +8,14 @@
 .bolder {
   font-weight: bolder;
 }
-
-.border-card {
+.border {
   border: 1px solid lightgray;
+}
+.border-card {
+  border-bottom: 1px solid lightgray;
+}
+.border-bt {
+  border-bottom: 1px solid lightgray;
 }
 
 .cent-flx {
@@ -21,6 +26,19 @@
 
 .lg-gray {
   color: lightgray;
+}
+
+.mrg-padd {
+  padding: 10px;
+}
+
+.hr-gray {
+  border: 1px solid lightgray;
+
+  width: 28%;
+  border-left: 5px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 h1 {
@@ -103,9 +121,18 @@ h1 {
   background-color: blue;
   color: white;
   margin-right: 15px;
-  margin-left: 5px;
+  margin-left: 10px;
+  width: 50px;
 }
 
+.bott-promo {
+  margin-left: 0px;
+  background-color: blue;
+  color: white;
+  height: 25px;
+  justify-content: center;
+  width: 150px;
+}
 /* jumbatron */
 
 .jumbotron {
@@ -129,6 +156,7 @@ h1 {
   justify-content: center;
   position: relative;
   padding: 1rem;
+  margin-top: 15px;
 }
 
 .col-2 {
@@ -140,12 +168,13 @@ h1 {
 
 .img-jumb {
   position: absolute;
-  margin-top: -128px;
-  margin-right: -879px;
+
+  margin-left: 250px;
+  margin-top: -165px;
 }
 
 .img-abs-jumb {
-  width: 600px;
+  width: 550px;
 }
 
 .unscr {
@@ -167,8 +196,10 @@ h1 {
 .arrow-down {
   margin: 0;
   position: absolute;
-  font-size: 20px;
-  margin-top: 375px;
+  font-size: 25px;
+  margin-top: 420px;
+  width: 20px;
+  margin-left: 12px;
 }
 
 /* main */
@@ -178,6 +209,7 @@ h2 {
 }
 .content-main {
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .row-main {
@@ -186,6 +218,8 @@ h2 {
   position: relative;
   margin-top: 60px;
   margin-bottom: 60px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .fatturazione {
@@ -194,6 +228,7 @@ h2 {
 
 .mensile {
   margin-right: 50px;
+  margin-left: 10px;
 }
 
 .ring-blu {
@@ -226,7 +261,8 @@ h2 {
 }
 .card-piano-center {
   margin-inline: 10px;
-  border: 1px solid lightgray;
+  border: 1px solid light;
+
   margin-left: 10px;
   margin-right: 10px;
   width: 33%;
@@ -240,7 +276,7 @@ h2 {
 }
 
 .butt-free {
-  background-color: blue;
+  background-color: #1f84ff;
   color: white;
   width: 100%;
 
@@ -248,7 +284,7 @@ h2 {
   margin-bottom: 20px;
 }
 .shop-now {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   margin-left: 15px;
 }
 .salient-point {
@@ -278,13 +314,33 @@ h2 {
 .mrg-bt-40 {
   margin-bottom: 40px;
 }
+.mrg-bt-60 {
+  margin-bottom: 60px;
+}
 
 .mrg-bt-30 {
   margin-bottom: 30px;
 }
 
+.mrg-top-10 {
+  margin-top: 10px;
+}
+
 .mrg-lft-20 {
-  margin-left: 20px;
+  margin-left: 25px;
+}
+
+.mrg-lft-020 {
+  margin-left: -15;
+}
+
+.mrg-top-30 {
+  margin-top: 30px;
+}
+
+.mrg-utente {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
 .sez-share {
@@ -295,4 +351,9 @@ h2 {
 .share-icon {
   position: absolute;
   margin-left: -15px;
+}
+
+.ceck-color {
+  color: #1f84ff;
+  margin-left: -14px;
 }
