@@ -522,7 +522,6 @@ h2 {
 }
 li {
   list-style-type: none;
-  color: white;
 }
 .stile-t {
   font-size: 16px;
@@ -563,8 +562,8 @@ footer {
   border-width: 0;
 }
 
-.li-footer > * li {
-  padding: 15px;
+.li-footer {
+  color: white;
 }
 hr {
   margin-top: 25px;
@@ -584,4 +583,8 @@ hr {
 
 .world-footer {
   padding: 10px;
+}
+
+.nav-col {
+  color: white;
 }
