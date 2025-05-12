@@ -215,7 +215,6 @@ h1 {
   flex-direction: column;
 }
 .text-prom {
-  margin-top: -37px;
   font-weight: bold;
 }
 
@@ -223,9 +222,9 @@ h1 {
   margin: 0;
   position: absolute;
   font-size: 25px;
-  margin-top: 340px;
+  margin-top: 360px;
   width: 20px;
-  margin-left: 12px;
+  margin-left: 10px;
 }
 
 /* main */
@@ -523,6 +522,7 @@ h2 {
 }
 li {
   list-style-type: none;
+  color: white;
 }
 .stile-t {
   font-size: 16px;
@@ -538,4 +538,50 @@ li {
   font-size: 25px;
   width: 80%;
   margin-bottom: 25px;
+}
+/* footer */
+
+.container-footer {
+  max-width: 870px;
+  margin: 0 auto;
+}
+footer {
+  background-color: black;
+  height: auto;
+}
+
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.li-footer {
+  font-size: 16px;
+}
+.li-foot-cont {
+  font-size: 11px;
+  border-width: 0;
+}
+
+.li-footer > * li {
+  padding: 15px;
+}
+hr {
+  margin-top: 25px;
+  width: 100px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.world {
+  color: white;
+  height: 15px;
+}
+
+.ita {
+  padding: 15px;
+}
+
+.world-footer {
+  padding: 10px;
 }
