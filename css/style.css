@@ -52,7 +52,7 @@ h1 {
 }
 .container {
   max-width: 800px;
-  width: 50%;
+
   margin: 0 auto;
 }
 
@@ -161,7 +161,8 @@ h1 {
 .col-6 {
   width: calc(100% / 12 * 6);
   justify-content: center;
-  position: relative;
+  width: 100%;
+
   padding: 1rem;
   margin-top: 15px;
 }
@@ -485,21 +486,17 @@ h2 {
 }
 .card-top-lft {
   width: 100%;
+  display: contents;
 }
 .card-center-lft {
   width: 100%;
 }
-.card-right-lft {
+.wdt-33 {
+  width: 33%;
 }
-.card-top-lft {
-}
-.card-top-lft {
-}
-.card-top-lft {
-}
-
 .card-colon {
   display: flex;
+  padding: 20px;
 }
 
 .box-card-top {
@@ -516,7 +513,29 @@ h2 {
   display: contents;
 }
 
+.wdt-img {
+  width: 100%;
+}
+
 .cent-flx {
   display: flex;
   justify-content: center;
+}
+li {
+  list-style-type: none;
+}
+.stile-t {
+  font-size: 16px;
+  font-weight: bolder;
+  width: 100%;
+}
+
+.text-card {
+}
+
+.h3-stile {
+  margin-top: 25px;
+  font-size: 25px;
+  width: 80%;
+  margin-bottom: 25px;
 }
